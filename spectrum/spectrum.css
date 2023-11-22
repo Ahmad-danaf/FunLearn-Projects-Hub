@@ -1,0 +1,44 @@
+#opening{
+    font-family: 'Pixelify Sans', cursive;
+    width: 40%;
+    margin: auto;
+}
+td{
+    text-align: center;
+    border: solid white 10px ;
+    
+}
+#firstItem{
+    width: 200px;
+    height: 400px;
+    background: #E63946;
+}
+#secItem{
+
+    width: 200px;
+    height: 400px;
+    background-color: #F1FAEE;
+}
+#thirdItem{
+
+    width: 200px;
+    height: 400px;
+    background-color: #A8DADC;
+}
+#fourthItem{
+
+    width: 200px;
+    height: 400px;
+    background-color: #457B9D;
+}
+#fifthItem{
+
+    width: 200px;
+    height: 400px;
+    background-color: #1D3557;
+}
+
+.spectrum{
+    width: 50%;
+    margin: auto;
+}
