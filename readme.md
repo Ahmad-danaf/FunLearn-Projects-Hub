@@ -45,6 +45,16 @@ The primary aim of these projects is to learn, experiment, and apply newfound kn
 - **Description:** Calculates individual payments including tips when going out with friends.
 - **To Run:** Execute `python tip_calculator.py`
 
+### 8. Password Manager
+- **Language:** Python
+- **Description:** Saves website, username/email, and password data. Allows generation of hard passwords and provides an option to search for username/email and password by website.
+- **To Run:** Execute `python main.py`
+
+### 9. Quizzler App
+- **Language:** Python
+- **Description:** Takes 10 True/False quiz questions about computer science from the Open Trivia Database API.
+- **To Run:** Execute `python main.py`
+
 ## Usage
 
 To get started with these projects, follow these steps:
