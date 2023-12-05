@@ -55,6 +55,11 @@ The primary aim of these projects is to learn, experiment, and apply newfound kn
 - **Description:** Takes 10 True/False quiz questions about computer science from the Open Trivia Database API.
 - **To Run:** Execute `python main.py`
 
+### 10. Study Timer (Pomodoro)
+- **Language:** Python
+- **Description:** The famous study-timer-pomodoro.
+- **To Run:** Execute `python main.py`
+
 ## Usage
 
 To get started with these projects, follow these steps:
