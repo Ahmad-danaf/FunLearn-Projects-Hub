@@ -60,6 +60,11 @@ The primary aim of these projects is to learn, experiment, and apply newfound kn
 - **Description:** The famous study-timer-pomodoro.
 - **To Run:** Execute `python main.py`
 
+### 11. Flash Card Project
+- **Language:** Python
+- **Description:** A program aiding in learning new words for The Psychometric Entrance Test using flashcards. Utilizes tkinter to display cards in English for 3 seconds, then reveals the translation in Hebrew. Allows removal of known words and creates a new CSV file to exclude known words on subsequent runs.
+- **To Run:** Execute `python main.py`
+
 ## Usage
 
 To get started with these projects, follow these steps:
