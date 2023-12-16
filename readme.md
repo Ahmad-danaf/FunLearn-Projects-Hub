@@ -65,6 +65,12 @@ The primary aim of these projects is to learn, experiment, and apply newfound kn
 - **Description:** A program aiding in learning new words for The Psychometric Entrance Test using flashcards. Utilizes tkinter to display cards in English for 3 seconds, then reveals the translation in Hebrew. Allows removal of known words and creates a new CSV file to exclude known words on subsequent runs.
 - **To Run:** Execute `python main.py`
 
+### Automated Amazon Price Tracker
+- **Language:** Python
+- **Description:** Automates tracking Amazon prices daily and sends email notifications when the price changes.
+- **To Run:** Upload this to a cloud platform like PythonAnywhere.com and set a scheduled command for daily execution. Update `notification_manager.py` using `smtplib` for email notifications. Refer to the `smtplib` documentation. To manually run, update `notification_manager.py` and execute `main.py`.
+- **Note:** Ensure to input your own email credentials and configure the notification settings before running.
+
 ## Usage
 
 To get started with these projects, follow these steps:
