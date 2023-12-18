@@ -65,11 +65,17 @@ The primary aim of these projects is to learn, experiment, and apply newfound kn
 - **Description:** A program aiding in learning new words for The Psychometric Entrance Test using flashcards. Utilizes tkinter to display cards in English for 3 seconds, then reveals the translation in Hebrew. Allows removal of known words and creates a new CSV file to exclude known words on subsequent runs.
 - **To Run:** Execute `python main.py`
 
-### Automated Amazon Price Tracker
+### 12. Automated Amazon Price Tracker
 - **Language:** Python
 - **Description:** Automates tracking Amazon prices daily and sends email notifications when the price changes.
 - **To Run:** Upload this to a cloud platform like PythonAnywhere.com and set a scheduled command for daily execution. Update `notification_manager.py` using `smtplib` for email notifications. Refer to the `smtplib` documentation. To manually run, update `notification_manager.py` and execute `main.py`.
 - **Note:** Ensure to input your own email credentials and configure the notification settings before running.
+
+### 13. Instagram Follower Bot
+- **Language:** Python
+- **Description:** A bot designed to gain more Instagram followers by following people from an account with similar topics. For instance, if the account is about space, the bot follows people who follow NASA, potentially attracting more users to the account.
+- **To Run:** Update `InstaFollower.py` with your Instagram account details and the account with a similar topic. Execute `python main.py`.
+- **Note:** Instagram regularly updates its website, leading to potential changes in CSS Selectors and XPATH. Ensure you may need to adjust them accordingly.
 
 ## Usage
 
