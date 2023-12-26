@@ -77,6 +77,22 @@ The primary aim of these projects is to learn, experiment, and apply newfound kn
 - **To Run:** Update `InstaFollower.py` with your Instagram account details and the account with a similar topic. Execute `python main.py`.
 - **Note:** Instagram regularly updates its website, leading to potential changes in CSS Selectors and XPATH. Ensure you may need to adjust them accordingly.
 
+### 14. Flight Deal Finder
+- **Language:** Python
+- **Description:** Searches for flight deals in the next 6 months and sends an alert via email if a cheap flight is found, similar to services like https://jacksflightclub.com/.
+
+- **Requirements:**
+    1. **Google Sheet:** Use https://sheety.co/ to update `SHEETY_PRICES_ENDPOINT` in `data_manager.py`.
+    2. **Kiwi Partners Flight Search API:** Sign up for the free Tequila API at https://tequila.kiwi.com/portal/login to obtain the `TEQUILA_API_KEY` used in `flight_search.py`.
+    3. **Sending Email with smtplib:** Update `notification_manager.py` to configure email sending. Refer to the `smtplib` documentation.
+
+- **To Run:**
+    1. Create a .env file and update all required API keys, mail configurations, and sensitive data as specified in comments at the start of each file.
+    2. Execute `main.py`.
+    3. For automated runs, deploy the code to a cloud platform like PythonAnywhere.com and schedule `main.py`. For manual runs, execute `main.py`.
+    
+- **Note:** Ensure you update the necessary API keys and configurations in the .env file before running the code.
+
 ## Usage
 
 To get started with these projects, follow these steps:
