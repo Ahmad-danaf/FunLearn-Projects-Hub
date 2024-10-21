@@ -1,124 +1,111 @@
-# FunLearn Projects Hub
+# GameDev Collection
 
-Welcome to the FunLearn Projects Hub! 
+Welcome to the **GameDev** repository! This collection features a variety of engaging games developed using Python, HTML, CSS, and JavaScript for entertainment and learning purposes. Each game is contained within its own directory, complete with detailed instructions on how to run and play.
 
-This repository houses a collection of diverse programming projects created for both fun and learning purposes.
+## Games List:
 
-## Purpose
+### Python Games:
 
-The primary aim of these projects is to learn, experiment, and apply newfound knowledge in a practical manner. By sharing these projects openly, I hope to inspire, teach, and collaborate with fellow developers and enthusiasts in the programming community.
-
-## Projects Included:
-
-### 1. Connect Four Game
-- **Languages:** HTML, CSS, JavaScript
-- **Description:** A classic implementation of the Connect Four game.
-- **To Play:** Open `connect_four_game.html`
-
-### 2. NATO Phonetic Alphabet
-- **Language:** Python
-- **Description:** Converts words into their NATO phonetic alphabet equivalents.
-- **To Run:** Execute `python main.py`
-
-### 3. Hirst Painting
-- **Language:** Python
-- **Description:** Generates an art piece resembling a Hirst painting using dots.
-- **To Run:** Execute `python hirst_painting.py`
-
-### 4. Caesar Cipher
-- **Language:** Python
-- **Description:** Encrypts and decrypts messages using the Caesar cipher.
-- **To Run:** Execute `python caesar_cipher.py`
-
-### 5. Spectrum
-- **Languages:** HTML, CSS
-- **Description:** Reproduction of a famous spectrum design.
-- **To Run:** Open `spectrum.html`
-
-### 6. Mail Merge
-- **Language:** Python
-- **Description:** Automates create similar letters to multiple recipients.
-- **To Run:** Execute `python main.py`
-
-### 7. Tip Calculator
-- **Language:** Python
-- **Description:** Calculates individual payments including tips when going out with friends.
-- **To Run:** Execute `python tip_calculator.py`
-
-### 8. Password Manager
-- **Language:** Python
-- **Description:** Saves website, username/email, and password data. Allows generation of hard passwords and provides an option to search for username/email and password by website.
-- **To Run:** Execute `python main.py`
-
-### 9. Quizzler App
-- **Language:** Python
-- **Description:** Takes 10 True/False quiz questions about computer science from the Open Trivia Database API.
-- **To Run:** Execute `python main.py`
-
-### 10. Study Timer (Pomodoro)
-- **Language:** Python
-- **Description:** The famous study-timer-pomodoro.
-- **To Run:** Execute `python main.py`
-
-### 11. Flash Card Project
-- **Language:** Python
-- **Description:** A program aiding in learning new words for The Psychometric Entrance Test using flashcards. Utilizes tkinter to display cards in English for 3 seconds, then reveals the translation in Hebrew. Allows removal of known words and creates a new CSV file to exclude known words on subsequent runs.
-- **To Run:** Execute `python main.py`
-
-### 12. Automated Amazon Price Tracker
-- **Language:** Python
-- **Description:** Automates tracking Amazon prices daily and sends email notifications when the price changes.
-- **To Run:** Upload this to a cloud platform like PythonAnywhere.com and set a scheduled command for daily execution. Update `notification_manager.py` using `smtplib` for email notifications. Refer to the `smtplib` documentation. To manually run, update `notification_manager.py` and execute `main.py`.
-- **Note:** Ensure to input your own email credentials and configure the notification settings before running.
-
-### 13. Instagram Follower Bot
-- **Language:** Python
-- **Description:** A bot designed to gain more Instagram followers by following people from an account with similar topics. For instance, if the account is about space, the bot follows people who follow NASA, potentially attracting more users to the account.
-- **To Run:** Update `InstaFollower.py` with your Instagram account details and the account with a similar topic. Execute `python main.py`.
-- **Note:** Instagram regularly updates its website, leading to potential changes in CSS Selectors and XPATH. Ensure you may need to adjust them accordingly.
-
-### 14. Flight Deal Finder
-- **Language:** Python
-- **Description:** Searches for flight deals in the next 6 months and sends an alert via email if a cheap flight is found, similar to services like https://jacksflightclub.com/.
-
-- **Requirements:**
-    1. **Google Sheet:** Use https://sheety.co/ to update `SHEETY_PRICES_ENDPOINT` in `data_manager.py`.
-    2. **Kiwi Partners Flight Search API:** Sign up for the free Tequila API at https://tequila.kiwi.com/portal/login to obtain the `TEQUILA_API_KEY` used in `flight_search.py`.
-    3. **Sending Email with smtplib:** Update `notification_manager.py` to configure email sending. Refer to the `smtplib` documentation.
-
-- **To Run:**
-    1. Create a .env file and update all required API keys, mail configurations, and sensitive data as specified in comments at the start of each file.
-    2. Execute `main.py`.
-    3. For automated runs, deploy the code to a cloud platform like PythonAnywhere.com and schedule `main.py`. For manual runs, execute `main.py`.
-    
-- **Note:** Ensure you update the necessary API keys and configurations in the .env file before running the code.
-
-## Usage
-
-To get started with these projects, follow these steps:
-
-1. Clone the repository:
+1. **U.S. States Game**  
+   **Description:** Guess the U.S. states. Type 'exit' to quit and learn the missing states (file is created after exiting).  
+   **How to Play:** Run
     ```bash
-    git clone https://github.com/Ahmad-danaf/FunLearn-Projects-Hub.git
-    ```
+   python main.py
+     ```
 
-2. Navigate to the specific project directory:
+3. **Turtle Crossing Game**  
+   **Description:** Help a turtle cross the road while avoiding moving cars. Each level gets progressively harder.  
+   **How to Play:** Run
     ```bash
-    cd project_directory
-    ```
+   python main.py
+     ```
 
-3. Follow the instructions provided in each project's README or code comments to run the project.
+4. **Pong Game**  
+   **Description:** Play the classic Pong game with increasing ball speed after each hit.  
+   **How to Play:** Run
+    ```bash
+   python main.py
+     ```
 
-For example:
-- For the Connect Four Game:
-  - Open `connect_four_game.html` in a web browser.
+5. **Snake Game**  
+   **Description:** Enjoy the classic snake game using arrow keys. Highest score is saved.  
+   **How to Play:** RRun
+    ```bash
+   python main.py
+     ```
 
-- For the NATO Phonetic Alphabet:
-  - Run `python main.py` and follow the prompts.
+6. **Automated Game Playing Bot**  
+   **Description:** Automates gameplay for Cookie Clicker by clicking cookies and purchasing items every 7 seconds. Runs for 7 minutes.  
+   **How to Play:** Run
+    ```bash
+   python main.py
+     ```
 
-Repeat these steps for each project you want to explore or run.
+   **Dependencies:**  
+   - Install Selenium: `pip install selenium`  
+   - Download Chrome WebDriver and add it to your system's PATH.
 
-## Contribution
+7. **Turtle Race Betting Game**  
+   **Description:** Bet on a winning turtle in a race between six colorful turtles.  
+   **How to Play:** Run
+    ```bash
+    python turtle_race_bidgame.py
+     ```
 
-Feel free to contribute, suggest improvements, or use these projects for learning purposes. Contributions from fellow developers are highly welcomed and appreciated!
+8. **Higher Lower Game**  
+   **Description:** Play the famous higher-lower game.  
+   **How to Play:** Run
+    ```bash
+   python higher_lower_game.py
+     ```
 
+9. **Hangman Game**  
+   **Description:** Play the classic hangman game.  
+   **How to Play:** Run
+    ```bash
+   python hangman_game.py
+     ```
+
+10. **Guess the Number**  
+   **Description:** Guess a number between 1 and 100 against the computer with easy and hard modes.  
+   **How to Play:** Run
+    ```bash
+    python guess_the_number.py
+     ```
+
+11. **Rock-Paper-Scissors Game**  
+    **Description:** Play rock-paper-scissors against the computer.  
+    **How to Play:** Run
+    ```bash
+    python rock-paper-scissors-game.py
+     ```
+
+### Web-Based Games (HTML, CSS, JavaScript):
+
+11. **Simon Game**  
+    **Languages:** HTML, CSS, JavaScript with jQuery  
+    **Description:** A memory-based game where players must repeat an increasingly long sequence of colors in the correct order.  
+    **To Play:** Open `index.html`.
+
+12. **Connect Four Game**  
+    **Languages:** HTML, CSS, JavaScript  
+    **Description:** A classic implementation of the Connect Four game.  
+    **To Play:** Open `connect_four_game.html`.
+
+## Usage:
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/Ahmad-danaf/GameDev.git
+   ```
+
+2. Navigate to the desired game directory:  
+   ```bash
+   cd GameDev/game_directory
+   ```
+
+3. Follow the instructions to run each game as described.
+
+## Contribution:
+
+Contributions to enhance existing games or add new ones are welcome! Fork the repository, make your changes, and submit a pull request.
