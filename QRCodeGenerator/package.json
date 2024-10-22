@@ -1,0 +1,27 @@
+{
+  "name": "qrcodegenerator",
+  "version": "1.0.0",
+  "description": "Generate QR code from URL",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahmad-danaf/FunLearn-Projects-Hub.git"
+  },
+  "keywords": [
+    "qr-code"
+  ],
+  "author": "Ahmad Danaf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ahmad-danaf/FunLearn-Projects-Hub/issues"
+  },
+  "homepage": "https://github.com/Ahmad-danaf/FunLearn-Projects-Hub#readme",
+  "dependencies": {
+    "inquirer": "^12.0.0",
+    "qr-image": "^3.2.0"
+  }
+}
