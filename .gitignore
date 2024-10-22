@@ -14,3 +14,31 @@ venv/
 *.min.css
 
 *.env
+
+
+# IDE specific files
+.vscode/
+.idea/
+.DS_Store
+
+# Operating system files
+Thumbs.db
+ehthumbs.db
+
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+
+# Build directories
+dist/
+build/
+
+# Dependency directories
+jspm_packages/
