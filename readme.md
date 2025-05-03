@@ -109,6 +109,13 @@ The primary aim of these projects is to learn, experiment, and apply newfound kn
 - **Description:** Converts words into their NATO phonetic alphabet equivalents.
 - **To Run:** Execute `python main.py`
 
+### 15. Linux & Bash Automation
+- **Languages:** Bash, Linux CLI
+- **Description:** A growing collection of scripts, notes, and exercises to learn Linux and automate real-world tasks. Includes a deploy script for Django apps like Volunteen and covers topics like file permissions, cron jobs, parsing logs, and more.
+- **To Explore:**
+  - Navigate to the [`Linux-Bash-Automation`](./Linux-Bash-Automation) folder.
+  - See `README.md` inside for full breakdown, progress, and scripts.
+
 ## Usage
 
 To get started with these projects, follow these steps:
